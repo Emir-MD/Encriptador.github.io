@@ -1,0 +1,93 @@
+body {
+  background-color: #dfd2d2;
+  font-family: 'Inter', sans-serif;
+  padding: 3rem;
+}
+.titulo{
+
+  text-align: center;
+  color: rgb(149, 16, 16);
+  font-family: var(--fuentePrincipal);
+  font-size: 2rem;
+}
+main {
+  display: flex;
+}
+
+.input_text {
+  background-color: #eedddd;
+  border: none;
+  color: #b00345;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  height: 400px;
+  left: 1000px;
+  margin-bottom: 3rem;
+  padding: 3rem;
+  resize: none;
+}
+
+.output_text {
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 32px;
+  border: cadetblue;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  color: #b00345;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  height: 400px;
+  left: 1000px;
+  margin-bottom: 3rem;
+  padding: 3rem;
+  resize: none;
+  top: 40px;
+  width: 400px;
+}
+
+.section_encrypt {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section_decrypt {
+  display: flex;
+  flex-direction: column;
+}
+
+.encrypt_button {
+  background-color: #b00345;
+  border-radius: 24px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: 3rem;
+  width: 13rem;
+}
+
+.decrypt_button {
+  background-color: #e0d2d2;
+  border-color: white;
+  border-radius: 24px;
+  color: #b00345;
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: 3rem;
+  width: 13rem;
+}
+
+.copy_button {
+  position: sticky;
+  background-color: #e5e5e5;
+  border-color: #bc2424;
+  border-radius: 24px;
+  color: #b41c1c;
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: 3rem;
+  width: 13rem;
+}
